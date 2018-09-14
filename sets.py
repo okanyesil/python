@@ -2,6 +2,7 @@
 
 new_sets={"Java","c#","c++","c","ruby"}#sets küme parantezi içerisinde tanımlanır.
 print(new_sets)
+
 #sets sayılamayan ve indexlenemez
 for y in new_sets:
   print(y)
@@ -25,3 +26,11 @@ print(new_sets)
 # Discard silmek istedğimiz değer yoksa hata vermez
 new_sets.discard("html")
 print(new_sets)
+#listte index girerek listin içindeki veriyi silmemize yarayan pop() methodu burada sadece sondaki veriyi silmeye 
+#yarar.
+
+new_sets.pop()
+print(new_sets)
+"""clear ile del methodları arasındaki fark ise clear seti boşaltirken 
+del tüm seti siler
+"""
