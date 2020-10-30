@@ -6,7 +6,7 @@ face_cascade = cv2.CascadeClassifier('face.xml')
 
 #resmi okuma
 
-img = cv2.imread('resim.jpg')
+img = cv2.imread('indir(2).jpg')
 
 #resmi griye çevirme
 
@@ -14,7 +14,12 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 #yüz tanıma
 
-faces = face_cascade.detectMultiScale(gray,1.1,4)
+faces = face_cascade.detectMultiScale(
+    gray,
+    scaleFactor=1.1,
+    minNeighbors=5,
+    minSize=(30, 30)
+)
 
 #yüzün çevresinde dikdörtgen çizme
 
