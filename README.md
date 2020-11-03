@@ -12,7 +12,7 @@ pip install matplotlib
 You must download database [Database](https://github.com/okanyesil/python/blob/master/dolarVeritabani.db)
 
 # Python Dolar Bot Example
-![github](https://github.com/okanyesil/python/blob/master/dolarKur.md)
+![SeeTheExample](https://github.com/okanyesil/python/blob/master/dolarKur.md)
 
 That all
 
