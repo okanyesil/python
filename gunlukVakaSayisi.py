@@ -13,7 +13,7 @@ soup = BeautifulSoup(request.content, "html.parser")
 veriler = soup.find("tbody", {"class": "ppcUXd"})
 liste = []
 deger = veriler.find_all("tr")
-print("-"*40, ulkeAdi+" Corona Tablosu", "-"*40)
+print("-"*20, ulkeAdi+" Corona Tablosu", "-"*20)
 for deg in deger:
     if deg.find("th").find("div").text == ulkeAdi:
         for veri in deg.find_all("td"):
