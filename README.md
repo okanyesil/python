@@ -2,7 +2,8 @@
 
 [Veri Görselleştirme](https://github.com/okanyesil/python/blob/master/veriGorsellestirme.py)
 
-![picture]()
+![picture](https://github.com/okanyesil/python/blob/master/veriGorsellestirme.PNG)
+
 ##Install Dependencies
 For matplotlib
 ```
