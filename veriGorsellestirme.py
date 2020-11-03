@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import sqlite3 as sql
-from datetime import datetime
+
 connection = sql.connect("dolarVeritabani.db")
 
 result = connection.execute("SELECT * FROM dolarTablo")
