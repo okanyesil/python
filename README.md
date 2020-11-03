@@ -1,4 +1,4 @@
-# Simple Python Example 
+#<h1 align="center"> Simple Python Example</h1> 
 
 [Veri Görselleştirme](https://github.com/okanyesil/python/blob/master/veriGorsellestirme.py)
 
