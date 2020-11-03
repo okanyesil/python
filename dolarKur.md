@@ -1,4 +1,4 @@
-#<h1 align="center">Python Dolar Bot<h1>
+#<h1 align="center">Python Dolar Bot</h1>
 Using request and BeautifulSoup take dolar cost and notify the user 
 
 ![image]()
