@@ -1,7 +1,7 @@
 #<h1 align="center">Python Dolar Bot</h1>
 Using request and BeautifulSoup take dolar cost and notify the user 
 
-![image]()
+![image](https://github.com/okanyesil/python/blob/master/Capture.PNG)
 ##Requirements
 
 * request module
