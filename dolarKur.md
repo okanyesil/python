@@ -1,9 +1,10 @@
-#<h1 align="center">Python Dolar Bot</h1>
-Using request and BeautifulSoup take dolar cost and notify the user 
+# <h1 align="center">Python Dolar Bot</h1>
+
+Using request and BeautifulSoup take dolar cost and notify the user
 
 ![image](https://github.com/okanyesil/python/blob/master/Capture.PNG)
 
-##Requirements
+## Requirements
 
 * request module
 * BeautifulSoup
@@ -12,16 +13,22 @@ Using request and BeautifulSoup take dolar cost and notify the user
 * time
 * datetime
 
-#installation
+# installation
+
 for request module
+
 ```
 pip install requests
 ```
+
 for BeautifulSoup module
+
 ```
 pip install beautifulsoup4
 ```
+
 for notifypy module
+
 ```
 pip install notify-py
 ```
